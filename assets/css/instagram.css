@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+::-webkit-scrollbar{
+    width: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.col-left,.col-right,.col-center{
+    height: 120vh;
+}
+.col-left{
+    width: 40rem;
+    background-color:rgba(231, 224, 224, 0.656);
+}
+.col-center{
+    width: 100%;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+}
+.col-right{
+    width: 35rem;
+    background-color: rgba(231, 224, 224, 0.656);
+}   
+                                           /* nav */
+
+
+
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(226, 221, 230);
+    border-bottom: 2px solid salmon;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-link{
+    display: flex;
+}
+.nav-left{
+    width: 40rem;
+    
+}
+.nav-center{
+    width: 100%;
+}
+.nav-right{
+    width: 40rem;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10px;
+}
+.logo span{
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.search-gp{
+    border: 2px solid salmon;
+    padding: 10px ;
+    border-radius: 32px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-gp input{
+    width: 100%;
+    border: none;
+    padding: 2px 0;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: transparent;
+}
+.search-gp input:focus{
+    outline: none;
+}
+.scope{
+    margin-right: 8px;
+}
+.mic{
+    margin-left: 8px;
+}
+.search button{
+    border: 2px solid salmon;
+    background-color: whitesmoke;
+    border-radius: 32px;
+    padding: 12px 20px;
+    color: salmon;
+    font-weight: bold;
+}
+.plus{
+    margin-right: 6px;
+    color: salmon;
+    font-weight: bold;
+}
+.nav-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 17px 0;
+}
+.nav-icon i{
+    padding: 10px 11px;
+    border: 2px solid salmon;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+                                       /* left */
+.left-gp{
+    text-align: center;
+}
+.left-img {
+    width: 25%;
+    border: 2px solid salmon;
+    border-radius: 50%;
+}
+.left-gp-img h4{
+    color: salmon;
+    margin-top: 10px;
+}
+.left-gp-img{
+    margin-top: 15px;
+}
+
+
+.text-gp{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+.first{
+    color: salmon;
+    font-weight: bold;
+}
+.left-gp-img span,.last{
+    color: black;
+    opacity: .5;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 0;
+}
+.left-gp-img span{
+    font-size: 15px;
+}
+.last{
+    font-size: 12px;
+}
+hr{
+    margin-top: 25px;
+    opacity: .5;
+}
+/* .left-bottom-gp{
+    padding: 20px 60px;
+}
+.left-nav-link{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+}
+.left-nav-link h3{
+    margin-left: 35px;
+    font-size: 20px;
+    opacity: .5;
+    font-weight: bold;
+    text-align: justify;
+} */
+.left-bottom-gp{
+    margin-top: 40px;
+}
+.li{
+    margin-bottom: 35px;
+    padding-left: 50px;
+}
+.li span{
+    font-weight: bold;
+    opacity: .5;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.top{
+    border-left: 5px solid salmon;
+    padding-left: 42px !important;
+}
+.top i,.top span{
+    color: salmon !important;
+    opacity: 1 !important;
+}
+
+                                                    /* center */
+
+
+.col-center-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 55px;
+}
+.story{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+.story-img {
+    display: flex;
+    flex-direction: column;
+}
+.story-img i{
+    width: 80px;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    padding: 29px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.story-img img{
+    width: 80px;
+    border: 2px solid salmon;
+    border-radius: 50%;
+}
+.story-img h3{
+    margin-top: 7px;
+    flex-grow: 1;
+    color: salmon;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.je{
+    margin-left: 15px;
+}
+.jo{
+    margin-left: 18px;
+}
+.la{
+    margin-left: 20px;
+}
+.iu{
+    margin-left: 26px;
+}
+.ya{
+    margin-left: 17px;
+}
+.body-center{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 52px;
+}
+.body-center span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.body-center-text span{
+    
+    border-radius: 32px;
+}
+.one{
+    border: 1px solid salmon;
+    opacity: .5;
+    padding: 5px 13px;
+    margin-right: 7px;
+}
+.two{
+    background-color: rgba(231, 224, 224, 0.656);
+    padding: 5px 8px;
+}
+.body-bottom{
+    padding: 0 52px;
+    
+}
+.card-body{
+    border: 2px solid salmon;
+    /* height: auto; */
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgba(231, 224, 224, 0.656);
+}
+.card{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-img img{
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+}
+.card-text{
+    margin-left: 8px;
+}
+.card-text h3{
+    color: salmon;
+    font-size: 20px;
+}
+.card-text span{
+    color: black;
+    opacity: .5;
+}
+.card i{
+    font-size: 20px;
+    color: salmon;
+}
+.Bp{
+    padding: 10px 20px;
+}
+.Bp img{
+    border-radius: 10px;
+}
+.card-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.card-nav-link span{
+    color: salmon;
+    font-weight: bold;
+}
+.post-text{
+    color: black;
+    opacity: .5;
+    font-weight: bold;
+    text-align: justify;
+}
+.comment-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    border: 2px solid salmon;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.inp{
+    width: 100%;
+    padding: 10px;
+}
+.comment-box{
+    border: 2px solid salmon;
+    border-radius: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px 10px; */
+    margin-left: 5px;
+}
+.comment-box input{
+    border: none;
+    background: transparent;
+}
+.comment-box input:focus{
+    outline: none;
+}
+.comment-gp {
+    display: flex;
+}
+.comment-gp i{
+    padding: 10px;
+}
+
+
+                                        /* right */
+
+
+.col-right-body{
+    padding: 10px 50px;
+}
+.colum-img{
+    column-count: 2;
+    margin-top: 10px;
+}
+.colum-img img{
+    border-radius: 8px;
+    width: 120px;
+    height: 90px;
+    margin-bottom: 5px;
+    border: 1px solid salmon;
+    object-fit: cover;
+}
+.col-right-header h3{
+    margin-bottom: 15px;
+}
+.right-center-gp{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.right-center-img{
+    width: 20%;
+    height: 50px;
+    border: 2px solid salmon;
+    overflow: hidden;border-radius: 50%;
+}
+.right-center-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position:center;
+}
+.right-text{
+    margin-left: 20px;
+}
+.right-text h3{
+    color: salmon;
+}
+.right-text span{
+    color: black;
+    opacity: .5;
+    font-weight: bold;
+}
+.prof{
+    margin-top: 15px;
+}
+.img-gp{
+    display: flex;
+    padding: 10px;
+}
+.col-right-bottom{
+    width: 240px;
+    background-color: rgba(245, 245, 245, 0.587);
+    margin-top: 10px;
+    height: 120px;
+}
+.col-right-bottom-text{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.col-right-bottom-text span{
+    font-weight: bold;
+}
+.col-right-bottom-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.col-right-bottom-img > img{
+    border-radius: 50%;
+    width: 18%;
+    margin-left: -17px;
+    padding-left: 8px;
+    margin-top: 15px;
+}
+.kilo{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.col-right-last{
+    padding:0px 25px;
+    margin-top: 15px;
+    
+}
+.col-right-last span{
+    opacity: .5;
+}
+.col-right-last a{
+    text-decoration: underline;
+    color: salmon;
+}
